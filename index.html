@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BF Trade Connect</title>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/BF Trade Connect Logo.jpeg" type="image/jpeg">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <a href="#home">
+        <img src="assets/BF Trade Connect Logo.jpeg" alt="BF Trade Connect Logo" class="logo" />
+      </a>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#home" data-en="Home" data-es="Inicio">Home</a></li>
+          <li><a href="#services" data-en="Services" data-es="Servicios">Services</a></li>
+          <li><a href="#about" data-en="About" data-es="Acerca de">About</a></li>
+          <li><a href="#contact" data-en="Contact" data-es="Contacto">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+      <div class="language-dropdown">
+        <button class="dropdown-toggle">EN</button>
+        <div class="dropdown-menu">
+          <a href="index.html" data-lang="en">English</a>
+          <a href="index-es.html" data-lang="es">Español</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>
+        <span class="hero-text desktop">
+          Smarter Marketing Journeys with <span class="highlight">Salesforce Marketing Cloud</span>
+        </span>
+        <span class="hero-text mobile">
+          Smarter Experiences with<br class="mobile-break">Salesforce Marketing Cloud
+        </span>
+      </h1>
+      <p>From strategy to execution, we help you unlock SFMC's full potential.</p>
+      <br class="mobile-only">
+      <a href="#contact" class="cta-btn">Let’s Talk</a>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="big-title">Our Services</h2>
+      <div class="service-boxes">
+        <div class="service">
+          <i class="fas fa-lightbulb service-icon"></i>
+          <h3>SFMC Consulting</h3>
+          <p>Strategic advice on implementation, product selection, integrations, and customer journey design.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-tools service-icon"></i>
+          <h3>Hands-on Implementation</h3>
+          <p>Journey building, email development, AMPscript, data modeling, and marketing automation setup.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-chalkboard-teacher service-icon"></i>
+          <h3>SFMC Training</h3>
+          <p>Training programs designed to empower your team to get the most out of Salesforce Marketing Cloud.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Yutori Global</h2>
+      <div class="about-grid">
+        <div class="about-block">
+          <h3>Strategy to Execution</h3>
+          <p>Yutori Global provides expert Salesforce Marketing Cloud solutions, guiding businesses from strategy to execution with flexibility and precision.</p>
+        </div>
+        <div class="about-block">
+          <h3>Hands-on Experience</h3>
+          <p>Backed by years of hands-on experience in both retail and consultancy sectors, our team deeply understands how to design and implement marketing strategies that drive real revenue impact.</p>
+        </div>
+        <div class="about-block">
+          <h3>Results-Driven Approach</h3>
+          <p>We help you unlock the full potential of SFMC to create smarter, more effective customer journeys that truly drive measurable growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS CAROUSEL SECTION -->
+  <section class="projects">
+    <div class="container">
+      <h2>+50 Projects Delivered</h2>
+      <p>Our team has a proven track record of contributing to projects for some of the world's biggest brands, demonstrating exceptional expertise and quality.</p>
+      <div class="logo-marquee">
+        <div class="logo-track">
+          <img src="assets/ChanelLogoImage.png" alt="Chanel Logo" />
+          <img src="assets/GrandvaliriaLogoImage.png" alt="Grandvaliria Logo" />
+          <img src="assets/KPMGLogoImage.png" alt="KPMG Logo" />
+          <img src="assets/NetshoesLogoImage.png" alt="Netshoes Logo" />
+          <img src="assets/OmronLogoImage.png" alt="Omron Logo" />
+          <img src="assets/SmartwoolLogoImage.png" alt="Smartwool Logo" />
+          <img src="assets/TomTomLogoImage.png" alt="TomTom Logo" />
+          <img src="assets/WhirlpoolLogoImage.png" alt="Whirlpool Logo" />
+          <!-- Duplicate for continuous loop -->
+          <img src="assets/ChanelLogoImage.png" alt="Chanel Logo" />
+          <img src="assets/GrandvaliriaLogoImage.png" alt="Grandvaliria Logo" />
+          <img src="assets/KPMGLogoImage.png" alt="KPMG Logo" />
+          <img src="assets/NetshoesLogoImage.png" alt="Netshoes Logo" />
+          <img src="assets/OmronLogoImage.png" alt="Omron Logo" />
+          <img src="assets/SmartwoolLogoImage.png" alt="Smartwool Logo" />
+          <img src="assets/TomTomLogoImage.png" alt="TomTom Logo" />
+          <img src="assets/WhirlpoolLogoImage.png" alt="Whirlpool Logo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/xgvadqjg" method="POST" class="contact-form">
+        <div class="form-group">
+          <input type="text" name="first_name" placeholder="First Name" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="last_name" placeholder="Last Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="company" placeholder="Company" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" maxlength="200" placeholder="Hello I would like to schedule a free consultation call to discuss how you could help us improve our marketing strategy" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 BF Trade Connect. All rights reserved.<br class="mobile-only"><br class="mobile-only">
+        <span class="follow-us">Follow us:
+          <a href="https://www.linkedin.com/company/yutori-global/posts/?feedView=all" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </span>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navUl = document.querySelector(".nav-links");
+    menuToggle.addEventListener("click", () => navUl.classList.toggle("active"));
+    document.querySelectorAll(".nav-links a").forEach(link =>
+      link.addEventListener("click", () => navUl.classList.remove("active"))
+    );
+    document.addEventListener("click", e => {
+      if (navUl.classList.contains("active") &&
+          !navUl.contains(e.target) &&
+          !menuToggle.contains(e.target)) {
+        navUl.classList.remove("active");
+      }
+    });
+  </script>
+</body>
+</html>
